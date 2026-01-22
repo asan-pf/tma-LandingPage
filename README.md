@@ -34,3 +34,6 @@ VITE_APP_TITLE=SILLY TITLE
 - Featured destinations with live API data
 - Mobile-first responsive design
 - Glassmorphism UI components
+
+## Contacts
+[telegram map github repository](https://github.com/asan-pf/tma-ofm-react-template)
