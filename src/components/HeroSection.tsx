@@ -3,7 +3,7 @@ import { ArrowDown, Github, Send, MapPin, Star, Share2 } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { LucideIcon } from 'lucide-react';
 
-const TELEGRAM_LINK = `https://t.me/${import.meta.env.VITE_APP_TMA_URL}?startapp=foo`;
+const TELEGRAM_LINK = `https://t.me/${import.meta.env.VITE_APP_TMA_URL}`;
 const GITHUB_LINK = 'https://github.com/asan-pf/tma-ofm-react-template';
 
 const chips = ['Vite + React', 'Leaflet', 'Telegram Mini App', 'Supabase'];

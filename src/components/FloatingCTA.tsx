@@ -3,7 +3,7 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { Send, X } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 
-const TELEGRAM_LINK = `https://t.me/${import.meta.env.VITE_APP_TMA_URL}?startapp=foo`;
+const TELEGRAM_LINK = `https://t.me/${import.meta.env.VITE_APP_TMA_URL}`;
 
 const FloatingCTA = () => {
   const [isVisible, setIsVisible] = useState(false);
