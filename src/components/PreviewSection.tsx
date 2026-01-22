@@ -3,7 +3,7 @@ import { Send, MapPin, Heart, Bookmark, Search, Star, Navigation } from 'lucide-
 import { Button } from '@/components/ui/button';
 import { useRef } from 'react';
 
-const TELEGRAM_LINK = 'https://t.me/YOUR_BOT_USERNAME/YOUR_APP?startapp=1';
+const TELEGRAM_LINK = `https://t.me/${import.meta.env.VITE_APP_TMA_URL}?startapp=foo`;
 
 const PreviewSection = () => {
   const containerRef = useRef<HTMLDivElement>(null);

@@ -3,7 +3,7 @@ import { ArrowDown, Github, Send, MapPin, Star, Share2 } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { LucideIcon } from 'lucide-react';
 
-const TELEGRAM_LINK = 'https://t.me/YOUR_BOT_USERNAME/YOUR_APP?startapp=1';
+const TELEGRAM_LINK = `https://t.me/${import.meta.env.VITE_APP_TMA_URL}?startapp=foo`;
 const GITHUB_LINK = 'https://github.com/asan-pf/tma-ofm-react-template';
 
 const chips = ['Vite + React', 'Leaflet', 'Telegram Mini App', 'Supabase'];
@@ -18,7 +18,7 @@ const HeroSection = () => {
   const scrollToPreview = () => {
     document.querySelector('#preview')?.scrollIntoView({ behavior: 'smooth' });
   };
-
+  const title = import.meta.env.VITE_APP_TITLE || "FREE"; 
   return (
     <section className="relative min-h-[100svh] flex items-center justify-center pt-24 pb-28 px-4">
       <div className="container max-w-3xl">
@@ -45,7 +45,7 @@ const HeroSection = () => {
             transition={{ delay: 0.5, duration: 0.5 }}
             className="section-title text-4xl sm:text-5xl md:text-6xl lg:text-7xl mb-4"
           >
-            <span className="text-gradient-primary">OPEN</span>
+            <span className="text-gradient-primary">{title}</span>
             <span className="text-foreground">FREE</span>
             <span className="text-gradient-accent">MAP</span>
           </motion.h1>

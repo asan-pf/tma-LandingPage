@@ -21,6 +21,12 @@ npm i
 npm run dev
 ```
 
+## environment variables
+```
+VITE_APP_TMA_URL=yourTelegram_bot
+VITE_APP_TITLE=SILLY TITLE
+```
+
 ## Features
 
 - Full-bleed interactive Leaflet map background

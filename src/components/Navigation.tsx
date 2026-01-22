@@ -9,7 +9,7 @@ const navLinks = [
   { label: 'Contribute', href: '#opensource' },
 ];
 
-const TELEGRAM_LINK = 'https://t.me/YOUR_BOT_USERNAME/YOUR_APP?startapp=1';
+const TELEGRAM_LINK = `https://t.me/${import.meta.env.VITE_APP_TMA_URL}?startapp=foo`;
 const GITHUB_LINK = 'https://github.com/asan-pf/tma-ofm-react-template';
 
 const Navigation = () => {
